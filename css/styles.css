@@ -144,16 +144,18 @@ img {
 
 .section-hero {
   text-align: center;
-  padding-top: 195px;
-  padding-bottom: 285px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 
   background-color: #2f303a;
 }
 
 .section-hero-title {
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 
-  min-width: 696px;
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -189,6 +191,10 @@ img {
 .section-skills-list .item:not(:last-child) {
   margin-right: 30px;
 }
+
+.section-skills-list .item {
+  width: 270px;
+}
 .section-skills-title {
   margin-bottom: 10px;
 
@@ -207,7 +213,7 @@ img {
   padding-bottom: 94px;
 }
 .section-work-title {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -250,7 +256,7 @@ img {
 }
 
 .section-team-title {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -260,7 +266,8 @@ img {
 }
 
 .team-members {
-  padding: 30px 58px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .name {
@@ -287,8 +294,8 @@ img {
 
 .logo-footer {
   display: block;
-
   margin-bottom: 20px;
+
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -298,8 +305,6 @@ img {
 
 .footer-section-address,
 .footer-section-contacts {
-  padding-right: 30px;
-
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -369,7 +374,8 @@ img {
 .portfolio-works .item {
   margin-right: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #eeeeee;
+
+  flex-basis: 370px;
 }
 
 .portfolio-works .item:nth-child(3n) {
@@ -382,6 +388,9 @@ img {
 
 .features-works {
   padding: 20px 24px;
+
+  border: 1px solid #eeeeee;
+  border-top: 0;
 }
 .portfolio-works-title {
   margin-bottom: 4px;
